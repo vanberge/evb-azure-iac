@@ -1,6 +1,4 @@
 # evb-azure-iac
 build/deploy azure resources with templates.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fvanberge%2Fevb-azure-iac%2Fmaster%2Fwin2016%2Fazuredeploy.json" target="_blank">
-    <img src="http://azuredeploy.net/deploybutton.png"/>
-</a>
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
