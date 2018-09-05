@@ -12,7 +12,7 @@
             "value": "Standard_B2s"
         },
         "adminUsername": {
-            "value": "evanbergen"
+            "value": null
         },
         "virtualNetworkName": {
             "value": "evb-iac-vnet"
