@@ -63,10 +63,6 @@
     },
     "resources": [
         {
-            "parametersLink": {
-                "uri":"https://raw.githubusercontent.com/vanberge/evb-azure-iac/master/win2016/parameters.json",
-                "contentVersion":"1.0.0.0"
-            },
             "name": "[parameters('virtualMachineName')]",
             "type": "Microsoft.Compute/virtualMachines",
             "apiVersion": "2018-04-01",
