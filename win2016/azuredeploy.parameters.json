@@ -6,19 +6,19 @@
             "value": "eastus"
         },
         "virtualMachineName": {
-            "value": null
+            "value": "evb-iac-win01"
         },
         "virtualMachineSize": {
             "value": "Standard_B2s"
         },
         "adminUsername": {
-            "value": null
+            "value": "evanbergen"
         },
         "virtualNetworkName": {
             "value": "evb-iac-vnet"
         },
         "networkInterfaceName": {
-            "value": "[parameters('virtualMachineName')]-nic"
+            "value": "evb-iac-win01389"
         },
         "networkSecurityGroupName": {
             "value": "evb-iac-nsg"
@@ -36,7 +36,7 @@
             "value": "10.1.0.0/24"
         },
         "publicIpAddressName": {
-            "value": "[parameters('virtualMachineName')]-pip"
+            "value": "evb-iac-win01-ip"
         },
         "publicIpAddressType": {
             "value": "Dynamic"
