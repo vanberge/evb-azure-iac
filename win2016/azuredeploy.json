@@ -3,60 +3,77 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
+            "type": "string",
             "value": "eastus"
         },
         "virtualMachineName": {
-            "value": "evb-iac-win01"
+            "type": "string"
         },
         "virtualMachineSize": {
+            "type": "string",
             "value": "Standard_B2s"
         },
         "adminUsername": {
+            "type": "string",
             "value": "evanbergen"
         },
         "virtualNetworkName": {
+            "type": "string",
             "value": "evb-iac-vnet"
         },
         "networkInterfaceName": {
-            "value": "evb-iac-win01389"
+            "type": "string"
         },
         "networkSecurityGroupName": {
-            "value": "evb-iac-nsg"
+            "type": "string",
+            "value": "evb-iac-win01-nsg"
         },
         "adminPassword": {
+            "type": "securestring",
             "value": null
         },
         "addressPrefix": {
+            "type": "string",
             "value": "10.1.0.0/24"
         },
         "subnetName": {
+            "type": "string",
             "value": "default"
         },
         "subnetPrefix": {
+            "type": "string",
             "value": "10.1.0.0/24"
         },
         "publicIpAddressName": {
+            "type": "string",
             "value": "evb-iac-win01-ip"
         },
         "publicIpAddressType": {
+            "type": "string",
             "value": "Dynamic"
         },
         "publicIpAddressSku": {
+            "type": "string",
             "value": "Basic"
         },
         "autoShutdownStatus": {
+            "type": "string",
             "value": "Enabled"
         },
         "autoShutdownTime": {
+            "type": "string",
             "value": "19:00"
         },
         "autoShutdownTimeZone": {
+            "type": "string",
             "value": "Eastern Standard Time"
         },
         "autoShutdownNotificationStatus": {
+            "type": "string",
             "value": "Disabled"
         }
     },
+    
     "variables": {
         "vnetId": "[resourceId('evb-iac','Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
         "subnetRef": "[concat(variables('vnetId'), '/subnets/', parameters('subnetName'))]"
