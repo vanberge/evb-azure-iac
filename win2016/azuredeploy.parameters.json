@@ -18,10 +18,10 @@
             "value": "evb-iac-vnet"
         },
         "networkInterfaceName": {
-            "value": "evb-iac-win01389"
+            "value": "evb-iac-win01440"
         },
         "networkSecurityGroupName": {
-            "value": "evb-iac-nsg"
+            "value": "evb-iac-win01-nsg"
         },
         "adminPassword": {
             "value": null
